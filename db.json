@@ -1,12 +1,13 @@
 {
-    "users": [
-        {
-            "username": "d",
-            "password": "d",
-            "email": "d",
-            "firstName": "d",
-            "lastName": "d",
-            "id": 1
-        }
-    ]
+  "users": [
+    {
+      "username": "Mohamed",
+      "password": "253658889",
+      "email": "jjjjj",
+      "firstName": "jjjjj",
+      "lastName": "jjjj",
+      "id": 1
+    }
+  ],
+  "products": []
 }

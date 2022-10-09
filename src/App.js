@@ -10,6 +10,7 @@ function App() {
     return (
         <>
             <Router>
+                NavBar
                 <Routes>
                     <Route path="/" element={<LoginForm />} />
                     <Route path="/register" element={<RegisterForm />} />
@@ -23,6 +24,7 @@ function App() {
                         }
                     />
                 </Routes>
+                Footer
             </Router>
         </>
     );

@@ -60,7 +60,7 @@ export const login = (userData, navigate) => async (dispatch) => {
 };
 
 export const logout = (navigate) => (dispatch) => {
-    sessionStorage.removeItem("id");
+    localStorage.removeItem("id");
     navigate("/");
     dispatch({
         type: LOGOUT,
